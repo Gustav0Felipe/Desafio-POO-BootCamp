@@ -35,7 +35,7 @@ public class principal {
     bootJava.getConteudos().add(cursoJava2);
     bootJava.getConteudos().add(mentoriaJava);
 
-    Opcoes opcao = new Opcoes();
+    Opcoes opcao = Opcoes.getInstancia();
     opcao.addBoot(bootJava);
     opcao.addBoot(bootPython);
 
